@@ -22,7 +22,9 @@ int main()
   cout<<"El menor nodo es "<<min->num<<endl;
   cout<<"El mayor nodo es "<<max->num<<endl;
 
-
+  Node *resultado = avl_deleteNode(&root, 24);
+  printAVL(root);
+  cout<<endl;
 
 
 
